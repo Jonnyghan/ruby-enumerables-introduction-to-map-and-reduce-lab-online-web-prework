@@ -57,5 +57,3 @@ while counter < array.size do
   array[counter] == false
   counter += 1
 end
-
-end
