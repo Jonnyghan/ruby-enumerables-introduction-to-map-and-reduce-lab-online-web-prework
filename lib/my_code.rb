@@ -1,8 +1,10 @@
 # My Code here....
-def map_to_negativize(source_array)
- source_array = [1,2,3,-9]
-new = source_array.map {|x| -x}
-  return new
+def map_to_negativize(array)
+final = []
+counter = 0 
+while counter < array.size do
+  
+end
 end
   
 def  map_to_no_change(dune)
