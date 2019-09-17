@@ -50,11 +50,3 @@ end
 total
 end
 
-def reduce_to_all_true
-  final = []
-counter = 0 
-while counter < array.size do
-  final.push(array[counter] * -1)
-  counter += 1
-end
-final
