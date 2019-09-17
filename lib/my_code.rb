@@ -10,9 +10,13 @@ final
 end
   
 def  map_to_no_change(dune)
-   dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
-   dune2=dune.map {|x| x*1}
-   dune2
+  final = []
+counter = 0 
+while counter < array.size do
+  final.push(array[counter] * -1)
+  counter += 1
+end
+final
  end
  
  
