@@ -13,7 +13,7 @@ def  map_to_no_change(dune)
   final = []
 counter = 0 
 while counter < array.size do
-  final.push(array[counter] * -1)
+  final.push(array[counter])
   counter += 1
 end
 final
