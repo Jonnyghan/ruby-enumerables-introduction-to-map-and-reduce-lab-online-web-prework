@@ -12,7 +12,7 @@ end
 def  map_to_no_change(dune)
   final = []
 counter = 0 
-while counter < array.size do
+while counter < dune.size do
   final.push(dune[counter])
   counter += 1
 end
