@@ -41,7 +41,7 @@ final
 end
 
 def reduce_to_total(array, starting_point = 0)
-  final = []
+  total =
 counter = 0 
 while counter < array.size do
   final.push(array[counter] * -1)
