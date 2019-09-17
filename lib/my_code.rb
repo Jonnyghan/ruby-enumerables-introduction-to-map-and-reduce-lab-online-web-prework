@@ -40,9 +40,8 @@ end
 final
 end
 
-def reduce_to_total(array, starting_point = )
-  source_array = [1,2,3]
-  starting_point=100
+def reduce_to_total(array, starting_point = 0)
+  
  red = source_array.reduce { |source_array| x+ starting_point}
   return red
 end
