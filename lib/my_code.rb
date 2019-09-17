@@ -41,7 +41,12 @@ final
 end
 
 def reduce_to_total(array, starting_point = 0)
-  
- red = source_array.reduce { |source_array| x+ starting_point}
-  return red
+  final = []
+counter = 0 
+while counter < array.size do
+  final.push(array[counter] * -1)
+  counter += 1
+end
+final
+ 
 end
