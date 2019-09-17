@@ -3,7 +3,7 @@ def map_to_negativize(array)
 final = []
 counter = 0 
 while counter < array.size do
-  
+  final.push[array * -1]
   counter += 1
 end
 end
