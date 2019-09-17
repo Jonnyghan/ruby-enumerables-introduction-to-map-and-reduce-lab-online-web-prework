@@ -6,6 +6,7 @@ while counter < array.size do
   final.push[array * -1]
   counter += 1
 end
+final
 end
   
 def  map_to_no_change(dune)
