@@ -50,7 +50,7 @@ end
 total
 end
 
-def reduce_to_all_true(array, starting_point = 0)
+def reduce_to_all_true(array)
   total = starting_point
 counter = 0 
 while counter < array.size do
